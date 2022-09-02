@@ -1,0 +1,15 @@
+button{
+background-image: url(./moon-svgrepo-com.svg);
+width: 30px;
+height: 30px;
+background-color: #fff;
+border: 2px solid;
+border-radius: 5px ;
+position: absolute;
+top: 15px;
+left:70%;
+cursor: pointer;
+}
+button:hover{
+  border: 0px;
+}
