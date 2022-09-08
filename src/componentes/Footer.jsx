@@ -1,5 +1,5 @@
 import React from 'react';
-import '../componentes/Footer.css'
+import '../componentes/Footer.css';
 import Logo_Kumerfoods from './Logo-KumerFoods';
 
 const Footer = ()=>{
