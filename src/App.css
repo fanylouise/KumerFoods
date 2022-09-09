@@ -33,6 +33,9 @@
   font-size: calc(10px + 2vmin); */
 
 }
+.OptionsTitle{
+  font-size:40px ;
+}
 
 
 /* @keyframes App-logo-spin {

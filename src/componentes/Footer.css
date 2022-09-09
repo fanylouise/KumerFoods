@@ -33,3 +33,13 @@ p.rights{
   color: black;
   margin: 25px;
 }
+
+@media(max-width:470px) {
+  ul.contacts_list{
+    display: flex;
+    flex-direction: column;
+  }
+  ul.contacts_list li{
+    margin: 7px;
+  }
+}
