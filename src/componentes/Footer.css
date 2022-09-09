@@ -7,13 +7,14 @@
 }
 h1.contacts{
   color: black;
+  font-size: 50px;
 }
 ul.contacts_list{
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
-  margin:5px;
+  margin:15px;
   list-style: none;
 }
 ul.contacts_list li{
@@ -30,8 +31,9 @@ ul.contacts_list li a:hover{
 }
 p.rights{
   font-size: 25px;
-  color: black;
-  margin: 25px;
+  background-color: #3DADC6;
+  color: rgb(0, 0, 0);
+  padding:15px;
 }
 
 @media(max-width:470px) {
