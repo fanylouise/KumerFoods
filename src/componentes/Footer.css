@@ -8,6 +8,7 @@
 h1.contacts{
   color: black;
   font-size: 50px;
+  margin-top: 50px;
 }
 ul.contacts_list{
   display: flex;
