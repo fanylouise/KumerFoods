@@ -11,6 +11,7 @@ html{
 body{
   width: 100%;
   height: 100vh;
+ 
 }
 
 .App {
@@ -18,15 +19,24 @@ body{
   font-family:'Jolly Lodger';
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
-.App-header {
+/* .App-header {
   color: #3DADC6;
   font-size: 100px;
-}
+} */
+/* header{
+  BACKGROUND-COLOR: #3DADC6;
+  height: 10px;
+} */
+.hidden{
+  transform: translate(calc(-1 * 152px));
+} 
+
+
 .options{
   display: flex;
   flex-wrap: wrap;
@@ -34,9 +44,8 @@ body{
 }
 .OptionsTitle{
   font-size:50px ;
-  text-align: left;
-  margin-top: 50px;
-  margin-left: 100px;
+  text-align: center;
+  margin: 30px auto;
 }
 .Famous{
   display: flex;
@@ -44,23 +53,32 @@ body{
   max-width: 600px;
   float: right;
 }
-/* .FamousTitle{
+ .FamousTitle{
   font-size:50px;
-  margin-top: 50px;
+  margin: 30px;
+  text-align: center;
   
-} */
-h1.NewTitle{
+  
+}
+.FamousTitle svg{
+  margin: 5px;
+}
+
+.NewTitle{
   font-size:50px;
   text-align: center;
-  margin: 15px;
+  margin: 30 px;
 }
+.NewTitle svg{
+  margin: 5px;
+}
+
 .New{
   display: flex;
   flex-direction: row; 
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
 
 @media (max-width:700px){
   .OptionsTitle{

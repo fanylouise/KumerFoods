@@ -1,7 +1,7 @@
 button{
-background-image: url(./moon-svgrepo-com.svg);
-width: 30px;
-height: 30px;
+background-image: url(moon1.svg);
+width: 33.9px;
+height: 33.9px;
 position: absolute;
 border: none;
 top: 28px;
@@ -9,10 +9,26 @@ left:70%;
 cursor: pointer;
 background-color: transparent;
 }
-button:hover{
-  width: 33px;
-  height: 33px;
+.changMoon{
+  background-image: url(moon2.svg);
+  position: absolute;
+  border: none;
+  top: 28px;
+  left:70%;
+  cursor: pointer;
+  background-color: transparent;
 }
+
+body{
+  transition: all 0.5s ease-out;
+}
+
+.theme{
+  background-color:#000000;
+  transition: all 0.5s ease-out;
+ 
+}
+
 
 /*Em breve*/
 /* @media (max-width:750px){

@@ -6,13 +6,12 @@
   box-sizing: border-box;
 }
 div.card{
-  margin: 0 auto;
+  margin: 15px auto;
   height: 200px;
   max-width: 200px;
 
   background-color: #e6e6e6;
   border-radius: 5px;
-  margin: 20px;
 
   overflow: hidden;
 }

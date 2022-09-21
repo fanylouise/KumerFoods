@@ -1,0 +1,19 @@
+
+ .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} 
+
+ .App-header {
+  color: #3DADC6;
+  font-size: 100px;
+
+} 
+
+header{
+  visibility: visible;
+}
+
+ .hidden{
+  transform: translate(calc(-1 * 152px));
+} 

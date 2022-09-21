@@ -36,6 +36,9 @@ p.rights{
   color: rgb(0, 0, 0);
   padding:15px;
 }
+.whiteTheme{
+  background-color: white;
+}
 
 @media(max-width:470px) {
   ul.contacts_list{
