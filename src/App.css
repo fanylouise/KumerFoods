@@ -11,10 +11,7 @@ html{
 body{
   width: 100%;
   height: 100vh;
-<<<<<<< HEAD
  
-=======
->>>>>>> origin
 }
 
 .App {
@@ -25,7 +22,6 @@ body{
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
-<<<<<<< HEAD
 } */
 
 /* .App-header {
@@ -41,14 +37,6 @@ body{
 } 
 
 
-=======
-}
-
-.App-header {
-  color: #3DADC6;
-  font-size: 100px;
-}
->>>>>>> origin
 .options{
   display: flex;
   flex-wrap: wrap;
@@ -56,14 +44,8 @@ body{
 }
 .OptionsTitle{
   font-size:50px ;
-<<<<<<< HEAD
   text-align: center;
   margin: 30px auto;
-=======
-  text-align: left;
-  margin-top: 50px;
-  margin-left: 100px;
->>>>>>> origin
 }
 .Famous{
   display: flex;
@@ -71,7 +53,6 @@ body{
   max-width: 600px;
   float: right;
 }
-<<<<<<< HEAD
  .FamousTitle{
   font-size:50px;
   margin: 30px;
@@ -81,23 +62,6 @@ body{
 }
 .FamousTitle svg{
   margin: 5px;
-=======
-/* .FamousTitle{
-  font-size:50px;
-  margin-top: 50px;
-  
-} */
-h1.NewTitle{
-  font-size:50px;
-  text-align: center;
-  margin: 15px;
-}
-.New{
-  display: flex;
-  flex-direction: row; 
-  flex-wrap: wrap;
-  justify-content: space-evenly;
->>>>>>> origin
 }
 
 .NewTitle{
@@ -109,7 +73,6 @@ h1.NewTitle{
   margin: 5px;
 }
 
-<<<<<<< HEAD
 .New{
   display: flex;
   flex-direction: row; 
@@ -117,8 +80,6 @@ h1.NewTitle{
   justify-content: space-evenly;
 }
 
-=======
->>>>>>> origin
 @media (max-width:700px){
   .OptionsTitle{
     font-size:50px;

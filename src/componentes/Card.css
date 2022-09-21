@@ -6,11 +6,7 @@
   box-sizing: border-box;
 }
 div.card{
-<<<<<<< HEAD
   margin: 15px auto;
-=======
-  margin: 0 auto;
->>>>>>> origin
   height: 200px;
   max-width: 200px;
 
