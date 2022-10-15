@@ -8,6 +8,16 @@ import Card from './componentes/Card/Card';
 
 import Footer from './componentes/Footer/Footer';
 
+import Hamburguer from '../src/componentes/assets/hamburguerBlueStroke.svg';
+import Combo from '../src/componentes/assets/comboBlueStroke.svg';
+
+import IceCream from '../src/componentes/assets/iceCreamBlueStroke.svg'
+
+import Soda from '../src/componentes/assets/sodaBlueStroke.svg'
+
+{/*Ilustrations*/}
+
+
 
 function App(){
 
@@ -20,10 +30,10 @@ function App(){
       <main>
         <section className='options'>
          <h1 className='OptionsTitle'>Opções</h1> 
-        <Card img_url='https://source.unsplash.com/random/?water'/>
-        <Card img_url='https://source.unsplash.com/random/?salad'/>
-        <Card img_url='https://source.unsplash.com/random/?soup'/>
-        <Card img_url='https://source.unsplash.com/random/?sushi'/>
+        <Card src={Hamburguer}/>
+        <Card src={Combo}/>
+        <Card src={IceCream}/>
+        <Card src={Soda}/>
         </section>
 
         <section className='Famous'>

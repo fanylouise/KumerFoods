@@ -6,16 +6,19 @@
   box-sizing: border-box;
 }
 div.card{
+  display: flex;
   margin: 15px auto;
   height: 200px;
-  max-width: 200px;
+  width: 150px;
 
-  background-color: #e6e6e6;
+  background-color: #ffffff;
   border-radius: 5px;
 
   overflow: hidden;
+
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 img{
   margin: 0 auto;
-  max-width: 100%;
+  width: 75px;
 }
