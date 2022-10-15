@@ -1,10 +1,10 @@
 import React from 'react';
 
-import './Header.css';
+import '../Header/Header.css';
 
-import Logo_Kumerfoods from './Logo-KumerFoods';
-import Navigation from './Navigation';
-import MoonTheme from './Moon';
+import Logo_Kumerfoods from '../Logo/Logo-KumerFoods';
+import Navigation from '../Navigation/Navigation';
+import MoonTheme from '../Theme/Moon';
 
   let nav = document.querySelector('.App-header');
 

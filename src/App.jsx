@@ -1,12 +1,12 @@
 
 import './App.css';
-import './componentes/Moon.css';
+import '../src/componentes/Theme/Moon.css';
 
-import Header from './componentes/Header';
+import Header from './componentes/Header/Header';
 
-import Card from './componentes/Card';
+import Card from './componentes/Card/Card';
 
-import Footer from './componentes/Footer';
+import Footer from './componentes/Footer/Footer';
 
 
 function App(){

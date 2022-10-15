@@ -1,6 +1,6 @@
 import React from 'react';
-import '../componentes/Footer.css';
-import Logo_Kumerfoods from './Logo-KumerFoods';
+import '../Footer/Footer.css';
+import Logo_Kumerfoods from '../Logo/Logo-KumerFoods';
 
 const Footer = ()=>{
   return(
