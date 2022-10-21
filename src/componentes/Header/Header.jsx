@@ -25,9 +25,13 @@ import MoonTheme from '../Theme/Moon';
   return(
     <div className='App-header'>
     <>
-      <Logo_Kumerfoods/>
+      <div>
+        <Logo_Kumerfoods />
+      <MoonTheme/>
+      </div>
+       
       <Navigation/>
-      <MoonTheme/> 
+      
     </>
     </div>
   

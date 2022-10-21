@@ -11,79 +11,34 @@ html{
 body{
   width: 100%;
   height: 100vh;
- 
 }
-
+svg{
+  margin: 5px;
+}
 .App {
   text-align: center;
   font-family:'Jolly Lodger';
 }
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-} */
-
-/* .App-header {
-  color: #3DADC6;
-  font-size: 100px;
-} */
-/* header{
-  BACKGROUND-COLOR: #3DADC6;
-  height: 10px;
-} */
 .hidden{
   transform: translate(calc(-1 * 152px));
-} 
-
-
-.options{
+}
+.columnCards{
+  max-width: 650px;
   display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.top{
+  display:flex ;
+  justify-content:space-between;
+  align-items:center;
   flex-wrap: wrap;
-  max-width: 600px;
 }
-.OptionsTitle{
-  font-size:50px ;
-  text-align: center;
-  margin: 30px auto;
-}
-.Famous{
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 600px;
-  float: right;
-}
- .FamousTitle{
-  font-size:50px;
-  margin: 30px;
-  text-align: center;
-  
-  
-}
-.FamousTitle svg{
-  margin: 5px;
-}
-
-.NewTitle{
-  font-size:50px;
-  text-align: center;
-  margin: 30 px;
-}
-.NewTitle svg{
-  margin: 5px;
-}
-
 .New{
   display: flex;
-  flex-direction: row; 
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 
-@media (max-width:700px){
-  .OptionsTitle{
-    font-size:50px;
-    text-align:center;
-    margin: 0 auto;
-  }
 }

@@ -2,12 +2,11 @@ button{
 background-image: url(../../componentes/assets/Moon.svg);
 width: 32px;
 height: 32px;
-position: absolute;
 border: none;
-top: 28px;
-left:70%;
 cursor: pointer;
 background-color: transparent;
+display: flex;
+
 }
 .changMoon{
   background-image: url(../../componentes/assets/Moon.svg);
@@ -33,7 +32,7 @@ body{
 }
 
 .theme{
-  background-color:#121212;
+  background-color:#03111d;
   transition: all 0.5s ease-out;
  
 }

@@ -7,18 +7,11 @@
 }
 div.card{
   display: flex;
-  margin: 15px auto;
+  margin: 10px;
   height: 200px;
-  width: 150px;
+  width: 200px;
+  background-color: palevioletred;
+  border-radius: 10px;
 
-  background-color: #ffffff;
-  border-radius: 5px;
 
-  overflow: hidden;
-
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-img{
-  margin: 0 auto;
-  width: 75px;
 }

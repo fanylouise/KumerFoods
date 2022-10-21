@@ -12,6 +12,7 @@ ul.Navigation{
   justify-content: space-evenly;
   list-style: none;
   padding: 10px;
+  height: 70px;
 }
 li{
   font-size: 30px;
@@ -23,7 +24,7 @@ ul.Navigation li a{
   transition: all 0.4s ease-out;
 }
 ul.Navigation li a:hover{
-  color: rgb(220, 228, 232);
+  color: rgb(235, 240, 243);
   
 }
 .hambuguer{
