@@ -3,6 +3,10 @@
     "node_modules":true,
     ".vscode":true,
     "package.json":true,
-    "package-lock.json":true
+    "package-lock.json":true,
+    "ScreenShots":true,
+    "logoLight.png":true,
+    ".gitignore":true,
+    "README.md":true
   }
 }

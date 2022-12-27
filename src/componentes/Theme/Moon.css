@@ -1,5 +1,5 @@
 button{
-background-image: url(../../componentes/assets/Moon.svg);
+background-image: url(../../componentes/assets/SVGs/Moon.svg);
 width: 32px;
 height: 32px;
 border: none;
@@ -9,7 +9,7 @@ display: flex;
 
 }
 .changMoon{
-  background-image: url(../../componentes/assets/Moon.svg);
+  background-image: url(../../componentes/assets/SVGs/Moon.svg);
   position: absolute;
   border: none;
   top: 28px;
@@ -18,7 +18,7 @@ display: flex;
   background-color: transparent;
 }
 .changSun{
-  background-image: url(../../componentes/assets/Sun.svg);
+  background-image: url(../../componentes/assets/SVGs/Sun.svg);
   position: absolute;
   border: none;
   top: 28px;
