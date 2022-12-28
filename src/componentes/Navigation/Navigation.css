@@ -24,8 +24,8 @@ ul.Navigation li a{
   color: rgba(0, 0, 0, 0.815);
   transition: all 0.4s ease-out;
 }
-ul.Navigation li a:hover{
-  color: rgb(235, 240, 243);
+ul.Navigation li:hover{
+  transform: scale(1,1.2);
   
 }
 .hambuguer{

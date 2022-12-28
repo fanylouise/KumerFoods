@@ -4,8 +4,6 @@ import '../Header/Header.css';
 
 import Logo_Kumerfoods from '../Logo/Logo-KumerFoods';
 import Navigation from '../Navigation/Navigation';
-import MoonTheme from '../Theme/Moon';
-
   let nav = document.querySelector('.App-header');
 
   let y = window.scrollY;
@@ -27,7 +25,6 @@ import MoonTheme from '../Theme/Moon';
     <>
       <div>
         <Logo_Kumerfoods />
-      <MoonTheme/>
       </div>
        
       <Navigation/>

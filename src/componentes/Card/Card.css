@@ -13,9 +13,3 @@
   background-color: palevioletred;
   border-radius: 5px;
 }
-
-@media screen and (max-width:300px){
-  .card{
-    width: 250px;
-  }
-}
