@@ -1,7 +1,5 @@
 
 import './App.css';
-import '../src/componentes/Theme/Moon.css';
-
 import Header from './componentes/Header/Header';
 
 import Card from './componentes/Card/Card';
