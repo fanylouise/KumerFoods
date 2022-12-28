@@ -5,13 +5,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-div.card{
+.card{
   display: flex;
   margin: 10px;
   height: 200px;
   width: 200px;
   background-color: palevioletred;
   border-radius: 5px;
+}
 
-
+@media screen and (max-width:300px){
+  .card{
+    width: 250px;
+  }
 }
