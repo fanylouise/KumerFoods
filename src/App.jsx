@@ -12,8 +12,6 @@ import Logo_Kumerfoods from './componentes/Logo/Logo-KumerFoods';
 
 {/*Ilustrations*/}
 
-
-
 function App(){
 
   return (

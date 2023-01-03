@@ -16,7 +16,7 @@ ul.Navigation{
   height: 70px;
 }
 li{
-  font-size: 30px;
+  font-size: 2rem;
   color: #fff;
 }
 ul.Navigation li a{
@@ -28,14 +28,8 @@ ul.Navigation li:hover{
   transform: scale(1,1.2);
   
 }
-.hambuguer{
- visibility: visible;
-}
-.hambuguer span{
-  content: '';
-  width: 10px;
-  height: 3px;
-  background-color: rgb(0, 0, 0);
-  margin: 5px;
-  border-radius: 5px;
+@media(max-width:440px){
+  li{
+    font-size: 1.5rem;
+  }
 }
