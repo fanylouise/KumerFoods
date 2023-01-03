@@ -8,8 +8,8 @@
 .card{
   display: flex;
   margin: 10px;
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 300px;
   background-color: palevioletred;
   border-radius: 5px;
 }

@@ -16,7 +16,7 @@ ul.Navigation{
   height: 70px;
 }
 li{
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #fff;
 }
 ul.Navigation li a{
@@ -28,8 +28,8 @@ ul.Navigation li:hover{
   transform: scale(1,1.2);
   
 }
-@media(max-width:440px){
+@media(max-width:646px){
   li{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 }

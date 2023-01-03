@@ -19,23 +19,25 @@ svg {
   font-family: "Jolly Lodger";
 }
 
-.hidden {
-  transform: translate(-152px);
-}
-
 .top {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.cubeCardsFomation{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 .New {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content:space-around;
   align-items: center;
 }
-@media(max-width:440px){
+@media(max-width:650px){
   .top{
   display: flex;
   flex-direction: column;
@@ -49,6 +51,7 @@ svg {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
   }
   
 }
